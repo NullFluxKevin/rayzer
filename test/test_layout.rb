@@ -2,9 +2,6 @@
 
 require "test_helper"
 
-require 'rayzer/layout'
-require 'rayzer/constraint'
-
 
 class TestLayout < Minitest::Test
   Layout = Rayzer::Layout

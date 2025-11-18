@@ -34,6 +34,10 @@ module Rayzer
       @type == LEAF
     end
 
+    def rect
+      [@x, @y, @width, @height]
+    end
+
 
     def split_to_rows(constraints, names=nil, &block)
       heights = @height.distribute(*constraints)

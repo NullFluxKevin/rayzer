@@ -2,9 +2,6 @@
 
 require "test_helper"
 
-require 'rayzer/distributor'
-require 'rayzer/constraint'
-
 
 class TestDistributor < Minitest::Test
 

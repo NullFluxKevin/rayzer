@@ -2,7 +2,6 @@
 
 require "test_helper"
 
-require 'rayzer/constraint'
 
 class TestConstraint < Minitest::Test
 
